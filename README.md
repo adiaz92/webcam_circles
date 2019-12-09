@@ -1,12 +1,12 @@
 # webcam_circleis
-##Circle detection from online webcam images
+## Circle detection from online webcam images
 
 The image below show that a bottle is detected like a circle.
 
 ![Circle Detector Image](media/circlesdetector.png)
 
 
-##The parameters of the circle detector are:
+## The parameters of the circle detector are:
 
 const int GAUSSIAN_BLUR_SIZE = 7;
 double const GAUSSIAN_BLUR_SIGMA = 2;
@@ -27,7 +27,7 @@ The parameter CANNY_EDGE_TH is a parameter for the Canny algorithm used by the f
 
 Finally we have the HOUGH_ACCUM_TH parameter which is the Threshold of the accumulator to decide the detection of the center of the circle. Reducing this value can cause the detection of a large number of false circles.
 
-##Hough transform
+## Hough transform
 
 The Hough transform convert points in the xy space to lines in the mc space. 
 
