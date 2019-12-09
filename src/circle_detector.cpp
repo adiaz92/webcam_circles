@@ -14,10 +14,10 @@ const int GAUSSIAN_BLUR_SIZE = 7;
 const double GAUSSIAN_BLUR_SIGMA = 2;
 const double CANNY_EDGE_TH = 150;
 const double HOUGH_ACCUM_RESOLUTION = 2;
-const double MIN_CIRCLE_DIST = 40;
-const double HOUGH_ACCUM_TH = 70;
+const double MIN_CIRCLE_DIST = 100;
+const double HOUGH_ACCUM_TH = 80;
 const int MIN_RADIUS = 20;
-const int MAX_RADIUS = 100;
+const int MAX_RADIUS = 70;
 
 int main(int argc, char *argv[])
 {
